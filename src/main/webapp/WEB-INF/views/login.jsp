@@ -1,6 +1,6 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html>
-<html>
+<html lang="en" xml:lang="en">
 <head>
 <title>Todos</title>
 <link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css"
@@ -40,7 +40,7 @@
 			<p>
 				<font color="red">${errorMessage}</font>
 			</p>
-			FirstName: <input type="text" name="name" /> Password:<input
+			First-Name: <input type="text" name="name" /> Password:<input
 				type="password" name="password" /> <input type="submit"
 				value="Login" />
 		</form>
